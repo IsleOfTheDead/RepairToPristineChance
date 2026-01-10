@@ -1,0 +1,87 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+      "*.md": "markdown",
+      "*.xml": "xml",
+      "*.bbc.txt": "bbcode",
+      "*.c": "enscript",
+      "*.cpp": "rapfile",
+      "*.hpp": "rapfile"
+    },
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "off",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.indentSize": "tabSize",
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": true,
+    "editor.rulers": [160],
+    "prettier.printWidth": 160,
+    "prettier.bracketSameLine": true,
+    "prettier.endOfLine": "lf",
+    "prettier.quoteProps": "consistent",
+    "prettier.semi": true,
+    "prettier.useTabs": false,
+    "prettier.tabWidth": 2,
+    "prettier.trailingComma": "none",
+    "prettier.singleQuote": false,
+    "prettier.requireConfig": false,
+    "prettyxml.settings.indentSpaceLength": 2,
+    "prettyxml.settings.positionAllAttributesOnFirstLine": true,
+    "prettyxml.settings.preserveWhiteSpacesInComment": true,
+    "enscript.diagnostics.enabled": true,
+    "enscript.logging.level": "debug",
+    "enscript.diagnostics.rules": {
+      "unused-typedef": {
+        "enabled": true,
+        "severity": "warning"
+      },
+      "undeclared-function": {
+        "enabled": true,
+        "severity": "error"
+      },
+      "undeclared-method": {
+        "enabled": true,
+        "severity": "error"
+      }
+    },
+    "enscript.modRoots": ["W:\\"],
+    "enscript.includePaths": [
+      "P:\\Core",
+      "P:\\DZ",
+      "P:\\graphics",
+      "P:\\gui",
+      "P:\\languagecore",
+      "P:\\scripts",
+      "P:\\system"
+    ],
+    "[markdown]": {
+      "editor.defaultFormatter": "mervin.markdown-formatter",
+      "editor.unicodeHighlight.ambiguousCharacters": false,
+      "editor.unicodeHighlight.invisibleCharacters": false,
+      "files.trimTrailingWhitespace": false,
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+      }
+    },
+    "[xml]": {
+      "editor.defaultFormatter": "PrateekMahendrakar.prettyxml"
+    },
+    "[json][jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vscodeTasksSidebar.defaultGrouped": true
+  }
+}
