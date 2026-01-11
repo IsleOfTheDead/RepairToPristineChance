@@ -18,10 +18,10 @@ class CfgMods
     hidePicture=0;
     extra=0;
     name="RepairToPristineChance";
-    picture="RepairToPristineChance/data/picture.paa";
-    logoSmall="RepairToPristineChance/data/logoSmall.paa";
-    logo="RepairToPristineChance/data/logo.paa";
-    logoOver="RepairToPristineChance/data/logo.paa";
+    picture="RepairToPristineChance\data\picture.paa";
+    logoSmall="RepairToPristineChance\data\logoSmall.paa";
+    logo="RepairToPristineChance\data\logo.paa";
+    logoOver="RepairToPristineChance\data\logo.paa";
     action="https://steamcommunity.com/sharedfiles/filedetails/?id=3638002113";
     credits="moldypenguins";
     author="moldypenguins";
@@ -34,12 +34,12 @@ class CfgMods
       class engineScriptModule
       {
         value="";
-        files[]={ "RepairToPristineChance/scripts/1_core" };
+        files[]={ "RepairToPristineChance\scripts\1_core" };
       };
       class worldScriptModule
       {
         value="";
-        files[]={ "RepairToPristineChance/scripts/4_world" };
+        files[]={ "RepairToPristineChance\scripts\4_world" };
       };
     }
   };

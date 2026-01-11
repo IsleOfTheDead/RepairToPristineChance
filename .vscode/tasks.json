@@ -40,6 +40,12 @@
         "--lineend=linux",
         "${file}"
       ]
+    },
+    {
+      "label": "Start Localhost",
+      "detail": "Launches DayZServer_x64.exe with required arguments",
+      "type": "shell",
+      "command": "Z:\\dzDrive.ps1 -S \"P:\\IsleOfTheDead\\${workspaceFolderBasename}\\@${workspaceFolderBasename}\""
     }
   ]
 }
