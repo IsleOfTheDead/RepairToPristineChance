@@ -21,6 +21,7 @@ class CfgMods
     picture="RepairToPristineChance/data/picture.paa";
     logoSmall="RepairToPristineChance/data/logoSmall.paa";
     logo="RepairToPristineChance/data/logo.paa";
+    logoOver="RepairToPristineChance/data/logo.paa";
     action="https://steamcommunity.com/sharedfiles/filedetails/?id=3638002113";
     credits="moldypenguins";
     author="moldypenguins";

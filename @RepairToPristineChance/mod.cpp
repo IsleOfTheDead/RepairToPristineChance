@@ -4,6 +4,7 @@ overview="Gives you a 33% chance to repair any worn item to pristine.";
 picture="RepairToPristineChance/data/picture.paa";
 logoSmall="RepairToPristineChance/data/logoSmall.paa";
 logo="RepairToPristineChance/data/logo.paa";
-action="https://steamcommunity.com/sharedfiles/filedetails/?id=3638002113;
+logoOver="RepairToPristineChance/data/logo.paa";
+action="https://steamcommunity.com/sharedfiles/filedetails/?id=3638002113";
 author="moldypenguins";
 version="1.1";
