@@ -12,7 +12,7 @@ modded class PluginRepairing
     float kit_repair_cost_adjusted; //used with specialty_weight, disconnected
     float new_quantity;
     int current_level = item.GetHealthLevel(damage_zone);
-    int target_level = Math.Clamp(Math.Clamp(current_level - 1, 0, health_levels_count - 1), GameConstants.STATE_PRISTINE, health_levels_count - 1).ToInt();
+    int target_level = Math.Clamp(Math.Clamp(current_level - 1, 0, health_levels_count - 1), GameConstants.STATE_PRISTINE, health_levels_count - 1);
     float health_coef = item.GetHealthLevelValue(target_level, damage_zone);
     //handles kit depletion; TODO: move to separate method.
     if (kit && kit.ConfigGetInt("repairKitType"))

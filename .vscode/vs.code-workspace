@@ -55,15 +55,7 @@
       }
     },
     "enscript.modRoots": ["W:\\"],
-    "enscript.includePaths": [
-      "P:\\Core",
-      "P:\\DZ",
-      "P:\\graphics",
-      "P:\\gui",
-      "P:\\languagecore",
-      "P:\\scripts",
-      "P:\\system"
-    ],
+    "enscript.includePaths": ["P:\\Core", "P:\\DZ", "P:\\graphics", "P:\\gui", "P:\\languagecore", "P:\\scripts", "P:\\system"],
     "[markdown]": {
       "editor.defaultFormatter": "mervin.markdown-formatter",
       "editor.unicodeHighlight.ambiguousCharacters": false,
@@ -81,6 +73,9 @@
     },
     "[json][jsonc]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[enscript]": {
+      "editor.formatOnSave": false
     },
     "vscodeTasksSidebar.defaultGrouped": true
   }

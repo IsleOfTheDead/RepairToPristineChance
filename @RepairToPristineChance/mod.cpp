@@ -7,4 +7,4 @@ logo="RepairToPristineChance\data\logo.paa";
 logoOver="RepairToPristineChance\data\logo.paa";
 action="https://steamcommunity.com/sharedfiles/filedetails/?id=3638002113";
 author="moldypenguins";
-version="1.1";
+version="1.2";
