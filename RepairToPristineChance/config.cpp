@@ -26,21 +26,13 @@ class CfgMods
     credits="moldypenguins";
     author="moldypenguins";
     authorID="76561198312711389";
-    version="1.2";
+    version="1.3";
     type="mod";
     dependencies[]={ "World" };
     class defs
     {
-      class engineScriptModule
-      {
-        value="";
-        files[]={ "RepairToPristineChance\scripts\1_core" };
-      };
-      class worldScriptModule
-      {
-        value="";
-        files[]={ "RepairToPristineChance\scripts\4_world" };
-      };
+      class engineScriptModule { value=""; files[]={ "RepairToPristineChance\scripts\1_core" }; };
+      class worldScriptModule { value=""; files[]={ "RepairToPristineChance\scripts\4_world" }; };
     }
   };
 };
