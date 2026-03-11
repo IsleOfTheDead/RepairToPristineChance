@@ -1,6 +1,5 @@
 modded class PluginRepairing
 {
-  //TODO: IOTD - Fix this file so changes are more apparent.
   override void CalculateHealth(PlayerBase player, ItemBase kit, Object item, float specialty_weight, string damage_zone = "", bool use_kit_qty = true) {
     EntityAI entity;
     Class.CastTo(entity, item);
