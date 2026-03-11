@@ -1,5 +1,7 @@
 [h1]RepairToPristineChance[/h1]
 
+[img]https://img.shields.io/badge/DayZ-v1.29-6BA539?style=for-the-badge&logo=bohemiainteractive&logoColor=6BA539&labelColor=30363D[/img]
+
 [u]Contains:[/u]
 - Gives you a 33% chance to repair any worn item to pristine.
 
